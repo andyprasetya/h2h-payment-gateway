@@ -1,0 +1,25 @@
+extends layout/_index
+
+block body
+	nav(class='navbar navbar-expand-md navbar-dark fixed-top bg-dark')
+		a(class='navbar-brand', href='./') #{title}
+		button(class='navbar-toggler', type='button', data-toggle='collapse', data-target='#navbarCollapse', aria-controls='navbarCollapse', aria-expanded='false', aria-label='Toggle navigation')
+			span(class='navbar-toggler-icon')
+		div(class='collapse navbar-collapse', id='navbarCollapse')
+			ul(class='navbar-nav mr-auto')
+				li(class='nav-item')
+					a(id='home', class='nav-link flat', href='#') <i class='fa fa-home'></i>&nbsp;Home
+				li(class='nav-item')
+					a(id='inquiry', class='nav-link flat', href='#') <i class='fa fa-paper-plane'></i>&nbsp;Inquiry
+				li(class='nav-item')
+					a(id='transaction', class='nav-link flat', href='#') <i class='fa fa-flask'></i>&nbsp;Transaction
+				li(class='nav-item')
+					a(id='payment', class='nav-link flat', href='#') <i class='fas fa-fire'></i>&nbsp;Payment
+				li(class='nav-item')
+					a(id='reversal', class='nav-link flat', href='#') <i class='fa fa-exchange-alt'></i>&nbsp;Reversal
+				li(class='nav-item')
+					a(id='report', class='nav-link flat', href='#') <i class='fa fa-leaf'></i>&nbsp;Report
+				li(class='nav-item')
+					a(id='log', class='nav-link flat', href='#') <i class='fa fa-lemon'></i>&nbsp;Logs
+	div(id='app')
+	div(id='app_modal')
