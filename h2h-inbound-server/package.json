@@ -1,0 +1,30 @@
+{
+  "name": "h2h-inbound-server",
+  "version": "1.0.0",
+  "description": "A sample inbound-server and dummy frontend for H2H",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "./node_modules/.bin/mocha ./test/test.js"
+  },
+  "keywords": [
+    "sample-inbound-server-and-dummy-frontend-for-H2H"
+  ],
+  "author": "andyprasetya@opense7en.com",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "btoa": "^1.2.1",
+    "connect": "^3.6.6",
+    "express": "^4.16.3",
+    "moment": "^2.21.0",
+    "node-fetch": "^2.2.0",
+    "path": "^0.12.7",
+    "pug": "^2.0.1",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.1.0"
+  }
+}
