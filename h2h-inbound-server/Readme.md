@@ -54,6 +54,6 @@ http://localhost:4000/
 ```
 By default, this \[Kickstart\] app is running at port 4000, and it can be adjusted to fit your development environment.
 ### Important notes:
-The frontend uses ([RequireJS] (https://requirejs.org/)), and most of all libraries are included offline in `/public/js/lib` directory. To make it online (CDN), you can edit `/public/js/app.js` by removing the commented lines.
+The frontend uses [RequireJS](https://requirejs.org/), and most of all libraries are included offline in `/public/js/lib` directory. To make it online (CDN), you can edit `/public/js/app.js` by removing the commented lines.
 
 -- Enjoy! --
