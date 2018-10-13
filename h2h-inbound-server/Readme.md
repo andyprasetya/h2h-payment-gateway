@@ -22,7 +22,7 @@ environments.staging = {
   'jwtId' : '759d80210b26678177af1535642e8b65b8eba15b7514478e969a31b13a8a1c53',
   'signature' : 'e1b84d5d32e8dbb61477e6feb30296f83f4d4bd6a13f5e61364a4a23e8f1eba8',
   'baseEndPoint' : 'http://123.1.23.4/endpoint',
-	'basePrefix' : ''
+  'basePrefix' : ''
 };
 environments.production = {
   'appName' : '[Kickstart]',
@@ -33,7 +33,7 @@ environments.production = {
   'jwtId' : '759d80210b26678177af1535642e8b65b8eba15b7514478e969a31b13a8a1c53',
   'signature' : 'e1b84d5d32e8dbb61477e6feb30296f83f4d4bd6a13f5e61364a4a23e8f1eba8',
   'baseEndPoint' : 'http://123.1.23.4/endpoint',
-	'basePrefix' : ''
+  'basePrefix' : ''
 };
 var currentEnvironment = typeof(process.env.NODE_ENV) == 'string' ? process.env.NODE_ENV.toLowerCase() : '';
 var environmentToExport = typeof(environments[currentEnvironment]) == 'object' ? environments[currentEnvironment] : environments.staging;
